@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VC</title>
+    <title>rsschool-cv</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p class="plug">My VC will be here</p>
+    <header>
+        <div class="container">
+        <nav class="main-navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                <li class="nav-item"><a href="#aboutme">About Me</a></li>
+                <li class="nav-item"><a href="#qualities">Personal qualities</a></li>
+                <li class="nav-item"><a href="#code">Code Examples</a></li>
+                <li class="nav-item"><a href="#education">Education</a></li>
+                <li class="nav-item"><a href="#lang">Languages</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+        <section class="section first-section">
+        <img class="main-img" src="../CV/img/myphoto.jpg" alt="photo Anton Sokolovsky">
+        <h1>Anton Sokolovsky</h1>
+        <p>Front-end developer</p>
+        </section>
+        <section class="section second-section">
+            <h2 id="contacts">Contact info</h2>
+            <ul>
+                <li><span class="contacts-item">Phone:</span> +7 918 205 01 53</li>
+                <li><span class="contacts-item">Email:</span> anton.a.sokolovsky@gmail.com</li>
+                <li><span class="contacts-item">GitHub: </span><a href="https://gist.github.com/AntonSokolovsky">AntonSokolovsky</a></li>
+                <li><span class="contacts-item">Discord:</span> anton-sokolovsky#6711</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 id="aboutme">About Me</h2>
+            <p>A short time ago, I realized that my current work activity will not lead me to anything that is really important and will not make my brain work. I left my familiar place of work in a very beautiful location and now I am here. And I am becoming a developer.</p>
+            <p class="quote">This is a classic I think<br>
+            (c)Jason Statham</p>
+        </section>
+        <section class="section">
+            <h2 id="qualities">Personal qualities</h2>
+            <ul>
+                <li>Great desire to become a developer</li>
+                <li>Fast learning</li>
+                <li>Eager to learn</li>
+                <li>Attentive</li>
+                <li>Open-minded</li>
+                <li>Multitasking</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 id="code">Code Examples</h2>
+            <p><code>
+                function multiply(a, b){<br>
+                    return a * b;<br>
+                  }
+            </code></p>
+        </section>
+        <section class="section">
+            <h2 id="education">Education</h2>
+            <ul>
+                <li>Self-studying</li>
+                <li>RS School</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2 id="lang">Languages</h2>
+            <ul>
+                <li>Russian - native</li>
+                <li>English - A2</li>
+            </ul>
+        </section>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <ul class="footer-list">
+                <li class="footer-list-item"><a class="logo-school" href="https://rs.school/js/">
+                    <img class="rss-logo" src="../CV/img/rs_school_js.svg" alt="Logo RS School">
+                    </a>
+                  </li>
+                  <li class="footer-list-item">© 2022 <a href="https://github.com/AntonSokolovsky/rsschool-cv">Anton Sokolovsky</a>
+                  </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
