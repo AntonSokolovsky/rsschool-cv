@@ -12,12 +12,12 @@ A short time ago, I realized that my current work activity will not lead me to a
 >Jason Statham
 
 ## Personal qualities
--  Great desire to become a developer
--  Fast learning
--  Eager to learn
--  Attentive
--  Open-minded
--  Multitasking
++  Great desire to become a developer
++  Fast learning
++  Eager to learn
++  Attentive
++  Open-minded
++  Multitasking
 
 ## Code Examples
 ```
