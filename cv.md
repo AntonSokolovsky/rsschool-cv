@@ -33,4 +33,4 @@ let multiply = (a, b) => {
 
 ## Languages
 -  Russian - native 
--  English - B1
+-  English - B2
