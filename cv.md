@@ -29,7 +29,7 @@ function multiply(a, b){
 ## Education
 * Saratov State Technical University
 * Self-studying
-* RS Scholl
+* RS School
 
 ## Languages
 -  Russian - native 
