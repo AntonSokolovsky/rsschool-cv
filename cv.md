@@ -21,7 +21,7 @@ A short time ago, I realized that my current work activity will not lead me to a
 
 ## Code Examples
 ```
-function multiply(a, b){
+let multiply = (a, b) => {
   return a * b;
 }
 ```
@@ -33,4 +33,4 @@ function multiply(a, b){
 
 ## Languages
 -  Russian - native 
--  English - A2
+-  English - B1
